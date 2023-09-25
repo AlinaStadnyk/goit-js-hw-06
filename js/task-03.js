@@ -26,6 +26,6 @@ const markup = images
 `
   )
   .join("");
-console.log(markup);
+
 list.insertAdjacentHTML("afterbegin", markup);
 list.classList.add("list");
